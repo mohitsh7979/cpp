@@ -9,14 +9,15 @@ int main() {
 	{
 	    cin>>a>>b;
 	    if(a>b){
-	        cout<<"second";
+	        cout<<"second\n";
 	    }
 	    else if(a==b){
-	        cout<<"Any";
+	        cout<<"Any\n";
 	    }
 	    else{
-	        cout<<"First";
+	        cout<<"First\n";
 	    }
+        cout<<"\n";
 	}
 
 }
