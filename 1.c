@@ -3,7 +3,7 @@
 
 
 int main() {
-    // Complete the code.
+ 
     int a;
     long b;
     char c;
