@@ -54,7 +54,8 @@ int main()
         cout << "\n";
     }
 
-    // 
+    // break statement
+    //continue statement
 
 } // int a, n;
   // cin >> a >> n;
