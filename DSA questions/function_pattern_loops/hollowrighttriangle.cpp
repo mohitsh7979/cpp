@@ -108,14 +108,14 @@ void rightinvertedstarttriangle(int rows)
 
 */
 
-void rightmirroredinvertedstarttriangle(int rows)
+void rightmirroredinvertedstarttriangle(int rows)   
 {
 
     for (int i = 1; i <= rows; i++)
     {
         for (int j = 1; j <= rows; j++)
         {
-            if(i==1 || j==rows || i-j==0){
+            if(i==1 || i+j==rows+1 || i-j==0 || i==rows){
                 cout<<"*";
             }
             else{
@@ -147,5 +147,5 @@ int main()
     int rows;
     cout<<"Enter Your rows :";
     cin>>rows;
-    A(rows);
+    rightmirroredinvertedstarttriangle(rows);
 }
